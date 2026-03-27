@@ -16,13 +16,13 @@ function loadNavigation() {
         
     const navHTML = `
         <nav class="main-nav">
-             <div class="container">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/Projekte/">Projekte</a></li>
-                <li><a href="/Über mich/">Über mich</a></li>
-            </ul>
-        </div>
+            <div class="container">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Projekte/">Projekte</a></li>
+                    <li><a href="/Über mich/">Über mich</a></li>
+                </ul>
+            </div>
         </nav>`;
 
     document.getElementById('header-placeholder').innerHTML = headerHTML;

@@ -3,7 +3,7 @@
    ========================================= */
 :root {
     --color-primary: #003366;      /* Deep Navy */
-    --color-secondary: #0055aa;    /* Akzentblau */
+    --color-secondary: #00aaff;    /* Akzentblau */
     --color-nav-bg: #002244;       /* Dunklere Navigationsfarbe */
     --color-highlight: #00aaff;    /* Hover-Highlight */
     --color-text: #000000;
@@ -16,7 +16,7 @@
    2. GRUNDSETUP (Reset & Typografie)
    ========================================= */
 body {
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, Helvetica, 'Segoe UI', sans-serif;
     line-height: 1.6;
     color: var(--color-text);
     background-color: var(--color-bg);
@@ -27,8 +27,8 @@ body {
 /* Container für den Hauptinhalt */
 .container {
     max-width: 900px;
-    margin: 1rem auto;
-    padding: 0 1rem; /* Typo behoben (vorher 01rem) */
+    margin: 0.5rem auto;
+    padding: 0 1rem;
 }
 
 /* =========================================
@@ -82,7 +82,7 @@ header p {
    ========================================= */
 .main-nav {
     background-color: var(--color-nav-bg);
-    padding: 1px 0;
+    padding: 0.1rem 0;
     position: sticky;
     top: 0;
     z-index: 1000;
